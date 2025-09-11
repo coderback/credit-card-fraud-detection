@@ -34,12 +34,12 @@ pip install -r requirements.txt
 
 ## Model Performance Comparison
 
-| Model | AUC-PR | Precision | Recall | F1-Score | Business Rank |
-|-------|--------|-----------|--------|----------|---------------|
-| **XGBoost (Balanced)** | **0.8661** | **0.7810** | **0.8367** | **0.8079** | **🥇 1st** |
-| Random Forest (Balanced) | 0.8187 | 0.8182 | 0.8265 | 0.8223 | 🥈 2nd |
-| Neural Network + SMOTE | 0.8220 | 0.7034 | 0.8469 | 0.7685 | 🥉 3rd |
-| Baseline Logistic Regression | 0.7429 | 0.8289 | 0.6429 | 0.7241 | 4th |
+| Model | AUC-PR | Precision | Recall | F1-Score |
+|-------|--------|-----------|--------|----------|
+| **XGBoost (Balanced)** | **0.8661** | **0.7810** | **0.8367** | **0.8079** |
+| Random Forest (Balanced) | 0.8187 | 0.8182 | 0.8265 | 0.8223 |
+| Neural Network + SMOTE | 0.8220 | 0.7034 | 0.8469 | 0.7685 |
+| Baseline Logistic Regression | 0.7429 | 0.8289 | 0.6429 | 0.7241 |
 
 ## Key Technical Insights
 
