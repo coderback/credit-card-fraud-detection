@@ -1,0 +1,15 @@
+# Core data science libraries
+pandas>=2.3.2
+numpy>=2.3.3
+
+# Machine learning
+scikit-learn>=1.7.2
+xgboost>=3.0.5
+imbalanced-learn>=0.14.0
+
+# Visualization
+matplotlib>=3.10.6
+seaborn>=0.13.2
+
+# Jupyter notebook
+notebook==7.4.5
