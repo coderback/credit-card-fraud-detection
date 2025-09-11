@@ -24,7 +24,7 @@ This project analyzes credit card transactions to build an effective fraud detec
 
 ### Prerequisites
 ```bash
-pip install pandas numpy scikit-learn matplotlib seaborn xgboost imbalanced-learn
+pip install -r requirements.txt
 ```
 
 ### Running the Analysis
@@ -32,7 +32,7 @@ pip install pandas numpy scikit-learn matplotlib seaborn xgboost imbalanced-lear
 2. Open and run `credit_card_fraud_detection.ipynb` in Jupyter Notebook
 3. The notebook will automatically handle all preprocessing, modeling, and evaluation
 
-## 📈 Model Performance Comparison
+## Model Performance Comparison
 
 | Model | AUC-PR | Precision | Recall | F1-Score | Business Rank |
 |-------|--------|-----------|--------|----------|---------------|
@@ -65,7 +65,7 @@ pip install pandas numpy scikit-learn matplotlib seaborn xgboost imbalanced-lear
 - **Amount**: Only 7th most important (1.86%) - fraud is about patterns, not amounts
 - **Robustness**: Random Forest distributes importance more evenly
 
-## 💼 Business Impact Analysis
+## Business Impact Analysis
 
 ### Financial Performance (Test Set: 56,962 transactions)
 ```
